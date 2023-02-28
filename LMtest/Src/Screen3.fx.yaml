@@ -1,0 +1,90 @@
+"Screen3 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    RectQuickActionBar1 As rectangle:
+        Height: =88
+        Width: =Parent.Width
+        ZIndex: =1
+
+    LblAppName1 As label:
+        Align: =Align.Center
+        Height: =88
+        Text: ="View My Application"
+        Width: =Parent.Width
+        ZIndex: =2
+
+    Canvas1 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =Parent.Height - Self.Y
+        Width: =Parent.Width
+        Y: =RectQuickActionBar1.Y + RectQuickActionBar1.Height
+        ZIndex: =3
+
+        DataCard2 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =Parent.Height - 100
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Gallery3 As gallery.galleryVertical:
+                Height: =593
+                Items: =Leaves
+                Layout: =Layout.Vertical
+                TemplateSize: =127
+                Width: =1358
+                ZIndex: =1
+
+                Label1 As label:
+                    Height: =62
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.Title
+                    Width: =160
+                    X: =70
+                    Y: =40
+                    ZIndex: =1
+
+                Label2 As label:
+                    Height: =62
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.'Start Date'
+                    Width: =179
+                    X: =297
+                    Y: =40
+                    ZIndex: =2
+
+                Label3 As label:
+                    Height: =62
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.Managers.DisplayName
+                    Width: =170
+                    X: =554
+                    Y: =40
+                    ZIndex: =3
+
+                Button5 As button:
+                    Height: =62
+                    OnSelect: |
+                        =EditForm(Form15);
+                        Navigate(
+                            Screen2,
+                            ScreenTransition.Cover,
+                            {SelectedItem: Gallery3.Selected}
+                        );
+                    Text: ="Edit"
+                    Width: =175
+                    X: =815
+                    Y: =40
+                    ZIndex: =4
+
+                Label4 As label:
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.ID
+                    X: =1020
+                    Y: =51
+                    ZIndex: =5
+

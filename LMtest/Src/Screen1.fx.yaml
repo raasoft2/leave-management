@@ -1,0 +1,23 @@
+Screen1 As screen:
+
+    apply_leave As button:
+        Height: =185
+        OnSelect: |
+            =ResetForm(Form15);
+            NewForm(Form15);
+            Navigate(Screen2,ScreenTransition.Fade);
+        Text: ="Apply Leave"
+        Width: =345
+        X: =58
+        Y: =76
+        ZIndex: =1
+
+    Button2 As button:
+        Height: =185
+        OnSelect: =Navigate(Screen3,ScreenTransition.Cover)
+        Text: ="My Leave Application"
+        Width: =320
+        X: =462
+        Y: =76
+        ZIndex: =2
+
