@@ -102,10 +102,10 @@
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
-                Items: =Choices([@Leaves].Select_x0020_Type)
+                Items: =Choices([@Leaves].'Select Type')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices(Leaves.Select_x0020_Type,DataCardValue20.SearchText)
+                SearchItems: =Choices(Leaves.'Select Type',DataCardValue20.SearchText)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.6
@@ -168,10 +168,10 @@
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
-                Items: =Choices([@Leaves].Leave_x0020_type)
+                Items: =Choices([@Leaves].'Leave type')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices(Leaves.Leave_x0020_type,DataCardValue19.SearchText)
+                SearchItems: =Choices(Leaves.'Leave type',DataCardValue19.SearchText)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.6
@@ -742,10 +742,10 @@
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
-                Items: =Choices([@Leaves].Leave_x0020_Status)
+                Items: =Choices([@Leaves].'Leave Status')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices(Leaves.Leave_x0020_Status,DataCardValue18.SearchText)
+                SearchItems: =Choices(Leaves.'Leave Status',DataCardValue18.SearchText)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.6
