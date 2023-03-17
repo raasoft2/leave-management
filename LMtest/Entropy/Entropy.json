@@ -54,6 +54,7 @@
     "galleryTemplate3": 77,
     "Icon1": 9,
     "Icon2": 83,
+    "Icon3": 84,
     "Label1": 78,
     "Label2": 79,
     "Label3": 80,
@@ -87,7 +88,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/17/2023 06:24:13",
+  "HeaderLastSavedDateTimeUTC": "03/17/2023 06:26:41",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "fcffd41b-4098-43da-9dd7-0d3dae2bd1d4": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/75103c7430f14f899ca469d51098c578\""
@@ -174,6 +175,7 @@
     "galleryTemplate3": {},
     "Icon1": {},
     "Icon2": {},
+    "Icon3": {},
     "Label1": {},
     "Label2": {},
     "Label3": {},
@@ -259,6 +261,7 @@
     "galleryTemplate3": 72,
     "Icon1": 5,
     "Icon2": 4,
+    "Icon3": 0,
     "Label1": 73,
     "Label2": 74,
     "Label3": 75,

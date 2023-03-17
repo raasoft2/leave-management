@@ -88,3 +88,12 @@
                     Y: =51
                     ZIndex: =5
 
+    Icon3 As icon.BackArrow:
+        Height: =51
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Screen1,ScreenTransition.Fade);
+        Width: =49
+        X: =32
+        Y: =18
+        ZIndex: =4
+
