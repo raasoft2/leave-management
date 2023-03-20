@@ -864,7 +864,7 @@
         OnSelect: |
             =Navigate(
                 Screen2,
-                
+                ScreenTransition.Fade
             );
         Width: =49
         X: =17
