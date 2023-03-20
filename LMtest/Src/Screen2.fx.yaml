@@ -861,7 +861,11 @@
         Color: =RGBA(255, 255, 255, 1)
         Height: =55
         Icon: =Icon.BackArrow
-        OnSelect: =Navigate(Screen1,ScreenTransition.Fade);
+        OnSelect: |
+            =Navigate(
+                Screen2,
+                
+            );
         Width: =49
         X: =17
         Y: =12
